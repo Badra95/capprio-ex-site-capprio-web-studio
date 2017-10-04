@@ -1,0 +1,93 @@
+/* Reproduire le design comme ici https://codepen.io/c4pprio/live/12dbdf49128a282ae62a325b53d717f6
+*/
+
+/* Font utilisée - Montserrat */
+/* Icônes de Font Awesome */
+
+/* La partie HTML est prête, la seule modification c'est l'ajout des icônes et une vidéo */
+
+body {
+  width: 960px;
+  max-width: 90%;
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  margin-bottom: 32px;
+}
+
+header {
+  border-bottom: 1px solid;
+}
+
+h1 {
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.site-subtitle {
+  font-weight: normal;
+  text-transform: none;
+  font-size: 30px;
+}
+
+h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+footer {
+  border-top: 1px solid;
+  padding: 20px;
+}
+
+#about {
+  text-align: left;
+  padding: 48px;
+}
+
+.quote {
+  background: url(https://unsplash.it/1200/800?image=354);
+  background-attachment: fixed;
+  padding: 40px;
+  display: block ;
+  margin-bottom: 50px;
+  background-size: cover;
+}
+
+blockquote strong {
+  padding: 20px;
+  display: block;
+}
+
+.wrapper {
+  color: white;
+  font-size: 40px;
+}
+
+.contact {
+  background: black;
+  color: white;
+  margin: 50px 0;
+}
+
+.box {
+  padding: 50px;
+}
+
+a {
+  color: inherit;
+}
+a:hover{
+  color: lightblue;
+  text-decoration: none;}
+
+  .pictures  { font-size: 30px; }
